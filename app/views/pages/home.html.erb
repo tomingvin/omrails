@@ -4,29 +4,54 @@
             <h1>Welcome back!</h1>
         </div>
     </div>
+    <div class="container">
+  <form>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Product Name</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Select</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>Travel Gear</option>
+      <option>Hotel</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
+  <div class="form-check">
+  <label class="form-check-label">
+    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+    Yes
+  </label>
+</div>
+<div class="form-check">
+  <label class="form-check-label">
+    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+    No
+  </label>
+</div>
+</form>
+    </div>
 <% else %>
     <div class="jumbotron jumbotron-home">
         <div class="container">
-            <h1>Welcome to my website!</h1>
-            <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting  point to create something more unique.</p>
+            <h1>Travel review</h1>
+            <p>The simple travel, stay and gear review site.</p>
                 <%= link_to "Learn more »", "#", class: "btn btn-primary btn-lg" %>
         </div>
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
-                <h2>Heading</h2>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <div class="col-md-6">
+                <h2>YES</h2>
+                <p>It's a keeper! </p>
                 <p><%= link_to "View details", "#", class: "btn btn-secondary" %></p>
             </div>
-            <div class="col-md-4">
-                <h2>Heading</h2>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                <p><%= link_to "View details", "#", class: "btn btn-secondary" %></p>
-            </div>
-            <div class="col-md-4">
-                <h2>Heading</h2>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <div class="col-md-6">
+                <h2>NO</h2>
+                <p>Won't do that again </p>
                 <p><%= link_to "View details", "#", class: "btn btn-secondary" %></p>
             </div>
         </div>

@@ -1,24 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A site for traveling consultants, freelancers, digital nomades and traveles in general. Review your stay, the travel there or the gear you brought with you. A simple "yes", meaning I'll keep it or do it again, or "no" - as in not doing that twice.
 
-Things you may want to cover:
+* Travel
 
-* Ruby version
+* Hotel
 
-* System dependencies
+* Gear
 
-* Configuration
+* Yes/No
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
